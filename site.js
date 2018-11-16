@@ -103,6 +103,7 @@ function formSubmit5() {
     document.getElementById("divform5").classList.add("hidden");
     document.getElementById("score").classList.remove("hidden");
     document.getElementById("whoa").classList.remove("hidden");
+    document.getElementById("whoa2").classList.remove("hidden");
     document.getElementById("final").innerText = `Question 1: ${score[0]} \n Question 2: ${score[1]} \n Question 3: ${score[2]} \n Question 4: ${score[3]} \n Question 5: ${score[4]} \n Thanks for playing... nerd`;
    
 }
