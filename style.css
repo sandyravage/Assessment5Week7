@@ -1,0 +1,60 @@
+﻿html{
+    overflow:hidden;
+}
+.container{
+    z-index:1;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+flexitem{
+
+}
+body{
+    position:relative;
+    background-image: url(wings.gif);
+    background-size: 100vw 100vh;
+    background-repeat:no-repeat;
+}
+.background {
+    background-color:black;
+    position:absolute;
+    z-index: 0;
+    max-width: 100%;
+    max-height:100%;
+}
+#quiztop{
+    color:aqua;
+    font-family:Chiller;
+    font: bold 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+.forms{
+    border:solid;
+    border-color:purple;
+    text-align:center;
+    position:relative;
+    background-color:white;
+    padding:70px;
+}
+
+.mybutton {
+    font-family:'Comic Sans MS';
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    right: 20px;
+}
+#score{
+    text-align:center;
+}
+h1{
+    font-family:'Comic Sans MS';
+}
+label{
+    font-family:'Comic Sans MS';
+}
